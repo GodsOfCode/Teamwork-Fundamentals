@@ -4,6 +4,7 @@ namespace Project05_CharacterStats
 {
     internal class Program
     {
+        //CONFIRMED for YaniLozanov.
         public static void Main(string[] args)
         {
             // Receive the name of the character.

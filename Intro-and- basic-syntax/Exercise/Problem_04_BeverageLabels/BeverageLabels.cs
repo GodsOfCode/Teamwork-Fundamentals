@@ -4,6 +4,7 @@ namespace Project04_BeverageLabels
 {
     internal class Program
     {
+        //CONFIRMED for YaniLozanov.
         public static void Main(string[] args)
         {
             // The name of product.
