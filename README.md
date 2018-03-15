@@ -141,6 +141,7 @@ Toad                          Name: Toad
 5                             Energy: |..........|      
 0      
 10         
-      
-Hints:      
+   
+   
+Hints:    
 You can print a character multiple times, using new string(character, count).
