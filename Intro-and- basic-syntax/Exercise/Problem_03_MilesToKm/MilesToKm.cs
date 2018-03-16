@@ -4,7 +4,6 @@ namespace Project3_MilesToKm
 {
     class Program
     {
-        static void Main(string[] args)
         //CONFIRMED from YaniLozanov.
         public static void Main(string[] args)
         {
