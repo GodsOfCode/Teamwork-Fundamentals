@@ -4,43 +4,44 @@ namespace Project05_CharacterStats
 {
     internal class Program
     {
+        //CONFIRMED for YaniLozanov.
         public static void Main(string[] args)
         {
             // Receive the name of the character.
-            string name = Console.ReadLine();
+            string charctersName = Console.ReadLine();
 
             // Receive the current health.
-            int healthCurrent = int.Parse(Console.ReadLine());
+            int currentHealth = int.Parse(Console.ReadLine());
 
             // Receive the max health.
-            int healthMax = int.Parse(Console.ReadLine());
+            int maxHP = int.Parse(Console.ReadLine());
 
             // Receive the current energy.
-            int energyCurrent = int.Parse(Console.ReadLine());
+            int currentEnergy = int.Parse(Console.ReadLine());
 
             // Receive the max energy.
-            int energyMax = int.Parse(Console.ReadLine());
+            int maxEnergy = int.Parse(Console.ReadLine());
             
             // How much health we have.
-            string health = new string('|', healthCurrent);
+            string hp = new string('|', currentHealth);
 
             // How much health is missing.
-            string healthMissing = new string('.', (healthMax - healthCurrent));
+            string missingHealth = new string('.', (maxHP - currentHealth));
 
             // How much health we have.
-            string energy = new string('|', energyCurrent);
+            string energy = new string('|', currentEnergy);
 
             // How much energy is missing.
-            string energyMissing = new string('.', (energyMax - energyCurrent));
+            string missingEnergy = new string('.', (maxEnergy - currentEnergy));
             
             // Print the character`s name.
-            Console.WriteLine($"Name: {name}");
+            Console.WriteLine($"Name: {charctersName}");
 
             // Print: How much health we have and how much health is missing.
-            Console.WriteLine($"Health: |{health}{healthMissing}|");
+            Console.WriteLine($"Health: |{hp}{missingHealth}|");
 
             // Print: How much energy we have and how much energy is missing.
-            Console.WriteLine($"Energy: |{energy}{energyMissing}|");
+            Console.WriteLine($"Energy: |{energy}{missingEnergy}|");
         }
     }
 }
