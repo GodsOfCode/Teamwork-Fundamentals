@@ -5,6 +5,8 @@ namespace Project3_MilesToKm
     class Program
     {
         static void Main(string[] args)
+        //CONFIRMED from YaniLozanov.
+        public static void Main(string[] args)
         {
             double mile = double.Parse(Console.ReadLine());
             double res = mile * 1.60934;
