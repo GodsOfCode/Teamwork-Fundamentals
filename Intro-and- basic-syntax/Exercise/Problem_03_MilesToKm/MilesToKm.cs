@@ -4,7 +4,7 @@ namespace Project03_MilesToKm
 {
     internal class Program
     {
-        //CONFIRMED for YaniLozanov.
+        //CONFIRMED from YaniLozanov.
         public static void Main(string[] args)
         {
             // Input: miles.
