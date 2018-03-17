@@ -7,9 +7,14 @@ namespace Project3_MilesToKm
         //CONFIRMED from YaniLozanov.
         public static void Main(string[] args)
         {
+            // Input milies.
             double mile = double.Parse(Console.ReadLine());
-            double res = mile * 1.60934;
-            Console.WriteLine("{0:f2}", res);
+
+            // Milies to kilometers
+            double kilometers = mile * 1.60934;
+
+            // Print the result.
+            Console.WriteLine("{0:f2}", kilometers);
         }
     }
 }
